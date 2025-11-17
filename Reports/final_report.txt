@@ -1,0 +1,16 @@
+
+Model performance:
+- AUC-ROC: 0.9512
+- Average Precision (PR AUC): 0.9079
+
+Top 5 global features (by mean |SHAP|):
+- person_income: 0.792357
+- loan_percent_income: 0.734730
+- loan_int_rate: 0.496188
+- person_home_ownership_RENT: 0.358293
+- person_home_ownership_OWN: 0.352254
+
+Case selections and probabilities:
+- Non-default (lowest p): index=3292, y_true=0, y_proba=0.0000
+- Default (highest p): index=6278, y_true=1, y_proba=1.0000
+- Borderline (~0.5): index=1879, y_true=0, y_proba=0.4998
